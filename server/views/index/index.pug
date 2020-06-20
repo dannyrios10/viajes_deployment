@@ -1,0 +1,39 @@
+extends ../layout/index
+
+block slider
+    .slider
+        h1 a Río de Janeiro
+        em Viaja con nosotros
+
+
+block contenido
+    main.container.mt-5 
+        h2.text-center.mb-5 Sobre Nosotros
+        .row.mb-5
+            .col-md-6
+                p Somos una agencia de viajes, que a través de asesores profesionales, te hace saber cómo viajar al mejor precio. A demás tenemos una membresía exclusiva, que te permite viajar a tiempos compartidos, pagando solamente el mantenimiento.
+
+                p Imagina disfrutar un tiempo compartido en cualquier parte del mundo, sin tener que pagar por el costo del lugar, ni tampoco tener rentas anuales. Pagarás únicamente cuando viajes y al lugar al que viajes, pero ahorrando por lo menos 70% de lo que pagarías.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", class="img-fluid")
+        
+        h2.text-center.mb-5 Próximos Viajes
+        include ../layout/parciales/viajes
+        
+                            
+    
+    .descuento
+        .container
+            .row
+                .col-md-6
+                    .contenido
+                        h3 5% de descuento
+                            p.titulo Viaje a Canada
+                            p.fecha 20 de Marzo 2021 - 28 Marzo de 2021
+                            p.precio $40,000 MNX
+
+    .container
+        h2.text-center.mb-5.mt-5 Experiencias de nuestros viajeros
+        include ../layout/parciales/testimoniales
+
+

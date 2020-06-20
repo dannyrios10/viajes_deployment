@@ -1,0 +1,30 @@
+extends ../layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5 
+                img.img-fluid(src="img/nosotros.jpg", alt="Imagen de Nosotros")
+            .col-md-7
+               h1 #{pagina}
+               blockquote Nosotros tenemos membresías a un precio increíble, con las cuales puedes accesar a usar tiempos compartidos de otras personas, en todas partes del mundo, por lo tanto, te ahorras hasta 70% en una semana todo incluido.
+               p Somos una agencia de viajes, que a través de asesores profesionales, te hace saber cómo viajar al mejor precio. A demás tenemos una membresía exclusiva, que te permite viajar a tiempos compartidos, pagando solamente el mantenimiento
+               p Imagina disfrutar un tiempo compartido en cualquier parte del mundo, sin tener que pagar por el costo del lugar, ni tampoco tener rentas anuales. Pagarás únicamente cuando viajes y al lugar al que viajes, pero ahorrando por lo menos 70% de lo que pagarías.
+    
+    .listado-iconos
+        .container.mt-5.py-5.text-center    
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Nos sentimos comprometidos con la sociedad en general y creemos que generar valor y riqueza es la mejor forma de contribuir a su desarrollo.
+                .col-md-4
+                    img(src="img/icono_destinos.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejores Destinos
+                    p Somos representantes oﬁciales en México de las organizaciones y proveedores más importantes del mundo en productos y servicios para viajeros..
+                .col-md-4
+                    img(src="img/icono_precio.svg", class="img-fluid mb-4")
+                    h2.mb-4 Mejor Precio
+                    p Tenemos más de 20 años de experiencia ofreciendo a viajeros asesoría profesional, los mejores precios.
+                    
+                
